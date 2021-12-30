@@ -13,7 +13,9 @@ if ($string = $reverse) {
 
 // Fontion de détection d'un anagrame 
 
-$string ="kayak";
-$reverse =strrev($string);
+$string ="star";
+$reverse = "rats";
+
+
 
 ?>
