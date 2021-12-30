@@ -16,6 +16,11 @@ if ($string = $reverse) {
 $string ="star";
 $reverse = "rats";
 
+//  Vérification du nombre de caractère 
+
+if (strlen($string) != strlen($reverse)){
+    echo ("Impossible qu'il s'agisse d'un anagrame.");
+}
 
 
 ?>
