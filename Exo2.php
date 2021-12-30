@@ -13,14 +13,19 @@ if ($string = $reverse) {
 
 // Fontion de détection d'un anagrame 
 
-$string ="star";
-$reverse = "rats";
+
 
 //  Vérification du nombre de caractère 
 
-if (strlen($string) != strlen($reverse)){
-    echo ("Impossible qu'il s'agisse d'un anagrame.");
+function anagram (string $mot, string $tocompare) {
+
+    if (strlen($mot) != strlen($tocompare)){
+        echo ("Impossible qu'il s'agisse d'un anagrame.");
+    }
+
+    if (strlen($mot) == strlen($tocompare)){
+        
+    }
+
 }
-
-
 ?>
