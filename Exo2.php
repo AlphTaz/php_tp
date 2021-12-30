@@ -37,14 +37,16 @@ function anagram (string $mot, string $tocompare) {
         $result = array_diff($lettermot,$lettertocompare);
     }
 
-    if ($result===0) {
-        echo ("C'est un anagrame");
-     } else {
+    if (empty($result)) {
+        echo ("C'est un anagrame.");
+
+        } else {
             echo ("Il ne s'agit pas d'un anagrame.");
+
         }
 
 }
 
-anagram ("rats","star")
+anagram ("rata","star")
 
 ?>
